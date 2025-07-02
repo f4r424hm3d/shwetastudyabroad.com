@@ -60,8 +60,8 @@
       "author": { "@type": "Person", "name": "Britannica Team", "url": "https://www.britannicaoverseas.com/author/6-britannica-team" },
       "publisher": {
           "@type": "Organization",
-          "name": "Britannica Overseas Education",
-          "logo": { "@type": "ImageObject", "name": "Britannica Overseas Education", "url": "https://www.britannicaoverseas.com/front/assets/img/logo.webp", "height": "65", "width": "258" }
+          "name": "Shweta Study Abroad",
+          "logo": { "@type": "ImageObject", "name": "Shweta Study Abroad", "url": "https://www.britannicaoverseas.com/front/assets/img/logo.webp", "height": "65", "width": "258" }
       },
       "image": { "@type": "ImageObject", "url": "<?= asset($og_image_path) ?>" }
     }

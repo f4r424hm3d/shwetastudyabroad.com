@@ -16,7 +16,7 @@
             <td valign="top" align="center" class="masthead" style="padding:20px 0;background:#03618c;color:white;">
               <h1 style="font-size:32px;margin:0 auto;max-width:90%;line-height:1.25;">
                 <a href="{{ url('/') }}" target="_blank" style="text-decoration:none;color:#ffffff;">
-                  {{ config('app.name'); }}
+                  {{ config('app.name') }}
                 </a>
                 <p style="margin-bottom:0;line-height:12px;font-weight:normal;margin-top:15px;font-size:18px;"></p>
               </h1>
@@ -26,7 +26,7 @@
             <td valign="top" class="content" style="background:white;padding:20px 35px 10px 35px;">
               <h3>Hello {{ $name }}, </h3>
               <p style="text-align: justify">
-                {{ $otp }} is your One Time Password (OTP) from <b>Britannica Overseas</b>. It will expire in
+                {{ $otp }} is your One Time Password (OTP) from <b>Shweta Study Abroad</b>. It will expire in
                 next
                 5 minutes.
                 <br>

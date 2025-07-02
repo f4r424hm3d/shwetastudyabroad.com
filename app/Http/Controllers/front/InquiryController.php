@@ -45,7 +45,7 @@ class InquiryController extends Controller
       'email' => $request['email'],
       'c_code' => $request['c_code'],
       'mobile' => $request['mobile'],
-      'source' => 'Britannica Overseas Exam Page Enquiry',
+      'source' => 'Shweta Study Abroad Exam Page Enquiry',
     ];
 
 

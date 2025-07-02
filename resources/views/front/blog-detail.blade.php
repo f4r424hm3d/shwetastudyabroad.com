@@ -65,8 +65,8 @@
       "author": { "@type": "Person", "name": "Britannica Team", "url": "https://www.britannicaoverseas.com/author/6-britannica-team" },
       "publisher": {
           "@type": "Organization",
-          "name": "Britannica Overseas Education",
-          "logo": { "@type": "ImageObject", "name": "Britannica Overseas Education", "url": "https://www.britannicaoverseas.com/front/assets/img/logo.webp", "height": "65", "width": "258" }
+          "name": "Shweta Study Abroad",
+          "logo": { "@type": "ImageObject", "name": "Shweta Study Abroad", "url": "https://www.britannicaoverseas.com/front/assets/img/logo.webp", "height": "65", "width": "258" }
       },
       "image": { "@type": "ImageObject", "url": "<?= asset($og_image_path) ?>" }
     }
@@ -80,9 +80,8 @@
 @endpush
 @section('main-section')
   <!-- Breadcrumb -->
-   <!-- style="background:url({{ url('/front/') }}/assets/img/ub.jpg);" -->
-  <div class="image-cover ed_detail_head lg" 
-    data-overlay="8">
+  <!-- style="background:url({{ url('/front/') }}/assets/img/ub.jpg);" -->
+  <div class="image-cover ed_detail_head lg" data-overlay="8">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-12 col-md-12">
@@ -207,7 +206,8 @@
                 <div class="card mb-1">
                   <div class="card-header main_hederss" id="headingTwo{{ $row->id }}">
                     <h5 class="mb-0">
-                      <button class=" main-decorations  btn btn-link collapsed w-100 d-flex align-items-center justify-content-between"
+                      <button
+                        class=" main-decorations  btn btn-link collapsed w-100 d-flex align-items-center justify-content-between"
                         type="button" data-toggle="collapse" data-target="#collapseTwo{{ $row->id }}"
                         aria-expanded="false" aria-controls="collapseTwo{{ $row->id }}">
                         {{ $row->question }}

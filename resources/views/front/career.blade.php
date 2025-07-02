@@ -35,7 +35,7 @@
         </div>
       @endif
       <div class="sec-heading center">
-        <h2>Job Openings in <span class="theme-cl1">Britannica Overseas</span></h2>
+        <h2>Job Openings in <span class="theme-cl1">Shweta Study Abroad</span></h2>
       </div>
 
       <div class="row">
@@ -233,7 +233,7 @@
             </div>
             <div class="prc_wrap-body">
               <div class="contact-info">
-                <p>Lead your professional career with Britannica Overseas. Drop us a email.</p>
+                <p>Lead your professional career with Shweta Study Abroad. Drop us a email.</p>
 
                 <div class="cn-info-detail">
                   <div class="cn-info-content">

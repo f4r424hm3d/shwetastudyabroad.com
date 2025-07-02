@@ -88,7 +88,7 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 col-md-6">
-          <p class="mb-0">© {{ date('Y') }} Britannica Overseas Education</p>
+          <p class="mb-0">© {{ date('Y') }} Shweta Study Abroad</p>
         </div>
 
         <div class="col-lg-6 col-md-6 text-right">
@@ -405,7 +405,7 @@
       <span class="d-block font-size-13 mb-2">The team typically replies in a few minutes.</span>
 
       <a class="country-box" target="_blank"
-        href="https://api.whatsapp.com/send?phone=918130798532&text=Hello there!! I want to get counseling by experts. Want to know more information about Study Abroad Consultants in India - Britannica Overseas Education">
+        href="https://api.whatsapp.com/send?phone=918130798532&text=Hello there!! I want to get counseling by experts. Want to know more information about Study Abroad Consultants in India - Shweta Study Abroad">
         <div class="row align-items-center">
           <div class="col-2 pr-0"><img data-src="https://www.britannicaoverseas.com/front/assets/img/flag-india.png"
               alt="indian flag" class="img-fluid"></div>
@@ -419,7 +419,7 @@
       </a>
 
       <a class="country-box" target="_blank"
-        href="https://api.whatsapp.com/send?phone=919818560331&text=Hello there!! I want to get counseling by experts. Want to know more information about Study Abroad Consultants in India - Britannica Overseas Education">
+        href="https://api.whatsapp.com/send?phone=919818560331&text=Hello there!! I want to get counseling by experts. Want to know more information about Study Abroad Consultants in India - Shweta Study Abroad">
         <div class="row align-items-center">
           <div class="col-2 pr-0"><img data-src="https://www.britannicaoverseas.com/front/assets/img/flag-india.png"
               alt="indian flag" class="img-fluid"></div>
@@ -434,7 +434,7 @@
       </a>
 
       <a class="country-box" target="_blank"
-        href="https://api.whatsapp.com/send?phone=601117784424&text=Hello there!! I want to get counseling from experts. Want to know more information about Study Abroad Consultants in India - Britannica Overseas Education">
+        href="https://api.whatsapp.com/send?phone=601117784424&text=Hello there!! I want to get counseling from experts. Want to know more information about Study Abroad Consultants in India - Shweta Study Abroad">
         <div class="row align-items-center">
           <div class="col-2 pr-0"><img
               data-src="https://www.britannicaoverseas.com/front/assets/img/flag-malaysia.png" alt="indian flag"

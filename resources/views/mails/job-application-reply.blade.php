@@ -26,7 +26,7 @@
               <h3>Dear {{ $name }},</h3>
               <p style="text-align: justify">
               <p>
-                Thank you for expressing your interest in joining the Britannica Overseas Education team. We appreciate
+                Thank you for expressing your interest in joining the Shweta Study Abroad team. We appreciate
                 the time and effort you invested in submitting your application for the {{ $position }} position.
               </p>
 
@@ -43,19 +43,19 @@
               </p>
 
               <p>
-                In the meantime, feel free to explore more about Britannica Overseas Education on our website at
+                In the meantime, feel free to explore more about Shweta Study Abroad on our website at
                 <a href="{{ url('/') }}">britannicaoverseas.com</a> to gain a deeper understanding of our
                 organization.
               </p>
 
               <p>
-                Thank you once again for considering a career with Britannica Overseas Education. We wish you the best
+                Thank you once again for considering a career with Shweta Study Abroad. We wish you the best
                 of luck in your job search.
               </p>
               <br>
               <b>Best Regards,</b>
               <br>
-              <b>Britannica Overseas Education</b> <br>
+              <b>Shweta Study Abroad</b> <br>
               <b>(+91) 9818560331</b> <br>
               <b>(+91) 8130798532</b>
               <br>

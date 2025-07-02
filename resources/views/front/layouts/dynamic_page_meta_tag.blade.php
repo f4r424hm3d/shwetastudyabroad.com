@@ -10,10 +10,10 @@
 <meta property="og:description" content="<?php echo $meta_description; ?>" />
 <link rel="shortcut icon" href="{{ asset('/front/') }}/assets/img/favicon.png" type="image/x-icon">
 <link rel="apple-touch-icon" href="{{ asset('/front/') }}/assets/img/favicon.png" />
-<meta property="og:site_name" content="Britannica Overseas Education" />
+<meta property="og:site_name" content="Shweta Study Abroad" />
 <meta property="og:url" content="<?php echo $page_url; ?>/" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="Britannica Overseas Education" />
+<meta name="twitter:site" content="Shweta Study Abroad" />
 <meta name="twitter:creator" content="@BritannicaOEdu" />
 <meta name="twitter:url" content="<?php echo $page_url; ?>/" />
 <meta name="twitter:title" content="<?php echo $meta_title; ?>" />

@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <title>Admin Login | Study Abroad</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta content="Study Abroad Britannica Overseas Education" name="description" />
+  <meta content="Shweta Study Abroad" name="description" />
   <meta content="Themesbrand" name="author" />
   <!-- App favicon -->
   <link rel="shortcut icon" href="{{ url('backend/') }}/assets/images/favicon.ico" />

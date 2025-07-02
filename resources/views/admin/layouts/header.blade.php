@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   @stack('title')
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta content="Study Abroad Britannica Overseas Education" name="description" />
+  <meta content="Shweta Study Abroad" name="description" />
   <meta content="Themesbrand" name="author" />
   <!-- choices css -->
   <link href="{{ url('backend/') }}/assets/libs/choices.js/public/assets/styles/choices.min.css" rel="stylesheet"

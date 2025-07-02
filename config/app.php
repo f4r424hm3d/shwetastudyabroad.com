@@ -216,8 +216,8 @@ return [
     'Excel' => Maatwebsite\Excel\Facades\Excel::class,
   ])->toArray(),
 
-  'cdn' => array(
-    "britannicaoverseas21junepavan.b-cdn.net" => ""
-  ),
+  // 'cdn' => array(
+  //   "britannicaoverseas21junepavan.b-cdn.net" => ""
+  // ),
 
 ];

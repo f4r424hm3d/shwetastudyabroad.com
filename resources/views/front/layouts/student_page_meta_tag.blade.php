@@ -33,12 +33,12 @@
 <link rel="apple-touch-icon" href="{{ asset('/front/') }}/assets/img/favicon.png" />
 <meta property="og:title" content="{{ $meta_title }}" />
 <meta property="og:description" content="{{ $meta_description }}" />
-<meta property="og:site_name" content="Britannica Overseas Education" />
+<meta property="og:site_name" content="Shweta Study Abroad" />
 <meta property="og:image" content="{{ url('front/assets/img/banner-2.jpg') }}" />
 <meta property="og:url" content="{{ $page_url }}" />
 <meta property="og:image:alt" content="{{ $page_content }}" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="Britannica Overseas Education" />
+<meta name="twitter:site" content="Shweta Study Abroad" />
 <meta name="twitter:creator" content="@BritannicaOEdu" />
 <meta name="twitter:url" content="{{ $page_url }}/" />
 <meta name="twitter:title" content="{{ $meta_title }}" />

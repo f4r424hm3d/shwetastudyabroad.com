@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Study Abroad by Britannica Overseas</title>
+  <title>Study Abroad by Shweta Study Abroad</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css'>
   <link rel="stylesheet" href="{{ url('startpage/') }}/style.css">

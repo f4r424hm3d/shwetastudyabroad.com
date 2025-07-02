@@ -28,7 +28,7 @@
   </style>
 
   <!-- organization schema code -->
-  <script type="application/ld+json"> {"@context":"https://schema.org","@type":"Organization","@id":"https://www.britannicaoverseas.com/#organization","name":"Britannica Overseas Education","url":"https://www.britannicaoverseas.com/","logo":"https://www.britannicaoverseas.com/front/assets/img/logo.png","address":{"@type":"PostalAddress","streetAddress":"B-16 Ground Floor, Mayfield Garden, Sector 50","addressLocality":"Gurugram","addressRegion":"Haryana","postalCode":"122002","addressCountry":"India"},"contactPoint":{"@type":"ContactPoint","contactType":"contact","telephone":"+919818560331","email":"info.britannicaoverseas.com"},"sameAs":["https://www.facebook.com/britannicaoverseasedu","https://twitter.com/BritannicaOEdu","https://www.youtube.com/channel/UCK2eeC1CkS3YkYrGnnzBUEQ","https://in.pinterest.com/Britannicaoverseas/","https://www.linkedin.com/company/britannicaoverseas/","https://www.instagram.com/britannicaoverseas/","https://www.tumblr.com/britannicaoverseas/"]}
+  <script type="application/ld+json"> {"@context":"https://schema.org","@type":"Organization","@id":"https://www.britannicaoverseas.com/#organization","name":"Shweta Study Abroad","url":"https://www.britannicaoverseas.com/","logo":"https://www.britannicaoverseas.com/front/assets/img/logo.png","address":{"@type":"PostalAddress","streetAddress":"B-16 Ground Floor, Mayfield Garden, Sector 50","addressLocality":"Gurugram","addressRegion":"Haryana","postalCode":"122002","addressCountry":"India"},"contactPoint":{"@type":"ContactPoint","contactType":"contact","telephone":"+919818560331","email":"info.britannicaoverseas.com"},"sameAs":["https://www.facebook.com/britannicaoverseasedu","https://twitter.com/BritannicaOEdu","https://www.youtube.com/channel/UCK2eeC1CkS3YkYrGnnzBUEQ","https://in.pinterest.com/Britannicaoverseas/","https://www.linkedin.com/company/britannicaoverseas/","https://www.instagram.com/britannicaoverseas/","https://www.tumblr.com/britannicaoverseas/"]}
 </script>
   <!-- Google Tag Manager -->
   <script>
@@ -103,7 +103,7 @@
         <nav id="navigation" class="navigation navigation-landscape">
           <div class="nav-header">
             <a class="nav-brand" href="{{ url('/') }}"><img src="{{ url('front/') }}/assets/img/logo.webp"
-                class="logo" alt="Britannica Overseas Education Logo" /></a>
+                class="logo" alt="Shweta Study Abroad Logo" /></a>
             <div class="nav-toggle"></div>
           </div>
           <div class="nav-menus-wrapper" style="transition-property: none;">
@@ -170,7 +170,7 @@
 
                   <form id="counsellingForm" class="row">
                     <input type="hidden" name="return_to" value="{{ request()->path() }}">
-                    <input type="hidden" name="source" value="Britannica Overseas - Modal Form">
+                    <input type="hidden" name="source" value="Shweta Study Abroad - Modal Form">
                     <input type="hidden" name="source_path" value="{{ url()->current() }}">
 
                     <div class="col-12 col-sm-6 col-md-6">

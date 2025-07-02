@@ -4,8 +4,7 @@
 @endpush
 @section('main-section')
   <!-- Breadcrumb -->
-  <div class="image-cover ed_detail_head lg" 
-    data-overlay="8">
+  <div class="image-cover ed_detail_head lg" data-overlay="8">
     <!-- style="background:url({{ asset('front/') }}/assets/img/ub.jpg);" -->
     <div class="container">
       <div class="row align-items-center">
@@ -32,12 +31,12 @@
         <div class="col-lg-6 col-md-6 col-sm-12">
           <div class="about-short">
             <div class="sec-heading">
-              <h2>About <span class="theme-cl1">Britannica Overseas</span> Education</h2>
+              <h2>About <span class="theme-cl1">Shweta Study Abroad</span> Education</h2>
             </div>
             <div class="font-size-16">
-              <p>Britannica Overseas is the cutting edge of higher education’s Recruitment, Marketing, and student
+              <p>Shweta Study Abroad is the cutting edge of higher education’s Recruitment, Marketing, and student
                 enrollment. We have been a well-founded solutions specialist to our partner institutions since 2015.
-                Britannica Overseas has been providing services for higher education marketing to over 100 partner
+                Shweta Study Abroad has been providing services for higher education marketing to over 100 partner
                 schools across the globe. We have also launched multiple websites for different overseas study
                 destinations like Malaysia, Germany, Canada, Australia, and the UK; hence, we receive millions of
                 visitors every month.</p>
@@ -47,7 +46,7 @@
                 that cover everything under one roof from Admission to Marketing and every section of an education
                 system. This evolution of ours has helped connect potential candidates from around the globe to our
                 partner Universities/Institutions/Colleges and is now recognized by an international team in Malaysia
-                and India. Britannica Overseas has stepped into an era within the education industry by introducing
+                and India. Shweta Study Abroad has stepped into an era within the education industry by introducing
                 software and marketing solutions.</p>
             </div>
           </div>
@@ -152,39 +151,39 @@
       <div class="row">
 
         <div class="col-lg-3 col-md-6 col-sm-12">
-          
-            <div class="_get_know_caption main-captions  ">
-              <h4><span class="counts">9</span>+</h4>
-              <p>Years Of Experience</p>
-            </div>
-        
+
+          <div class="_get_know_caption main-captions  ">
+            <h4><span class="counts">9</span>+</h4>
+            <p>Years Of Experience</p>
+          </div>
+
         </div>
 
         <div class="col-lg-3 col-md-6 col-sm-12">
-        
-            <div class="_get_know_caption main-captions  ">
-              <h4><span class="counts">17</span>+</h4>
-              <p>Professional Experts</p>
-            </div>
-         
+
+          <div class="_get_know_caption main-captions  ">
+            <h4><span class="counts">17</span>+</h4>
+            <p>Professional Experts</p>
+          </div>
+
         </div>
 
         <div class="col-lg-3 col-md-6 col-sm-12">
-     
-            <div class="_get_know_caption main-captions  ">
-              <h4><span class="counts">1800</span>+</h4>
-              <p>Partners Universities</p>
-            </div>
-        
+
+          <div class="_get_know_caption main-captions  ">
+            <h4><span class="counts">1800</span>+</h4>
+            <p>Partners Universities</p>
+          </div>
+
         </div>
 
         <div class="col-lg-3 col-md-6 col-sm-12">
-          
-            <div class="_get_know_caption main-captions  ">
-              <h4><span class="counts">8</span>+</h4>
-              <p>So far we have offices across 5 countries</p>
-            </div>
-          
+
+          <div class="_get_know_caption main-captions  ">
+            <h4><span class="counts">8</span>+</h4>
+            <p>So far we have offices across 5 countries</p>
+          </div>
+
         </div>
 
       </div>

@@ -5,7 +5,7 @@
         <script>
           document.write(new Date().getFullYear());
         </script>
-        © Britannica Overseas Education
+        © Shweta Study Abroad
       </div>
       <div class="col-sm-6">
         <div class="text-sm-end d-none d-sm-block">
@@ -99,13 +99,13 @@
       <h6 class="mt-4 mb-3 pt-2 sidebar-setting">Sidebar Size</h6>
 
       <div class="form-check sidebar-setting">
-        <input class="form-check-input" type="radio" name="sidebar-size" id="sidebar-size-default" value="default"
-          onchange="document.body.setAttribute('data-sidebar-size', 'lg')" />
+        <input class="form-check-input" type="radio" name="sidebar-size" id="sidebar-size-default"
+          value="default" onchange="document.body.setAttribute('data-sidebar-size', 'lg')" />
         <label class="form-check-label" for="sidebar-size-default">Default</label>
       </div>
       <div class="form-check sidebar-setting">
-        <input class="form-check-input" type="radio" name="sidebar-size" id="sidebar-size-compact" value="compact"
-          onchange="document.body.setAttribute('data-sidebar-size', 'md')" />
+        <input class="form-check-input" type="radio" name="sidebar-size" id="sidebar-size-compact"
+          value="compact" onchange="document.body.setAttribute('data-sidebar-size', 'md')" />
         <label class="form-check-label" for="sidebar-size-compact">Compact</label>
       </div>
       <div class="form-check sidebar-setting">
@@ -135,11 +135,13 @@
       <h6 class="mt-4 mb-3 pt-2">Direction</h6>
 
       <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="layout-direction" id="layout-direction-ltr" value="ltr" />
+        <input class="form-check-input" type="radio" name="layout-direction" id="layout-direction-ltr"
+          value="ltr" />
         <label class="form-check-label" for="layout-direction-ltr">LTR</label>
       </div>
       <div class="form-check form-check-inline">
-        <input class="form-check-input" type="radio" name="layout-direction" id="layout-direction-rtl" value="rtl" />
+        <input class="form-check-input" type="radio" name="layout-direction" id="layout-direction-rtl"
+          value="rtl" />
         <label class="form-check-label" for="layout-direction-rtl">RTL</label>
       </div>
     </div>
@@ -148,23 +150,24 @@
 </div>
 <!-- /Right-bar -->
 <script>
-  function showToastr(h,msg,type){
-    if(h=='Success'){
+  function showToastr(h, msg, type) {
+    if (h == 'Success') {
       $("#smsgd").show();
       $("#smsg").text(msg);
     }
-    if(h=='Failed'){
+    if (h == 'Failed') {
       $("#emsgd").show();
       $("#emsg").text(msg);
     }
-    $('#toastDiv').attr('class','align-items-center text-white bg-'+type+' border-0');
+    $('#toastDiv').attr('class', 'align-items-center text-white bg-' + type + ' border-0');
     $('#toastMsg').text(msg);
     $('#liveToast').show();
     setTimeout(() => {
       $('#liveToast').hide();
-    },5000);
+    }, 5000);
   }
-  function closeToastr(){
+
+  function closeToastr() {
     $('#liveToast').hide();
   }
 </script>

@@ -4,9 +4,8 @@
 @endpush
 @section('main-section')
   <!-- Breadcrumb -->
-   <!-- style="background:url({{ url('/front/') }}/assets/img/ub.jpg);" -->
-  <div class="image-cover ed_detail_head lg" 
-    data-overlay="8">
+  <!-- style="background:url({{ url('/front/') }}/assets/img/ub.jpg);" -->
+  <div class="image-cover ed_detail_head lg" data-overlay="8">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-12 col-md-12">
@@ -44,7 +43,7 @@
                 </div>
                 <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample" class="collapse">
                   <div class="card-body pt-3 pl-0 pr-0">
-                    <p>Welcome to the website “Britannicaoverseas.com” which is owned by “Britannica Overseas Pvt. Ltd.”
+                    <p>Welcome to the website “Britannicaoverseas.com” which is owned by “Shweta Study Abroad Pvt. Ltd.”
                       These terms and conditions cover every individual visiting this website and it is assumed that by
                       accessing and using Britannicaoverseas.com, you accept this “Terms of Use” in full and have gone
                       through and consent univocally and irrevocably to the same. If you disagree with these conditions
@@ -61,7 +60,7 @@
                 </div>
                 <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample" class="collapse">
                   <div class="card-body pt-3 pl-0 pr-0">
-                    <p>Britannica Overseas Pvt. Ltd. is the manager, moderator and operator of the website
+                    <p>Shweta Study Abroad Pvt. Ltd. is the manager, moderator and operator of the website
                       Britannicaoverseas.com and all of its versions including mobile and applications.
                       Britannicaoverseas.com is a search engine for the courses or colleges/institutions and assists
                       students by providing information on the admission process details of the courses,
@@ -202,7 +201,7 @@
                 <div id="collapseEight" aria-labelledby="headingEight" data-parent="#accordionExample"
                   class="collapse">
                   <div class="card-body pt-3 pl-0 pr-0">
-                    <p>Unless stated otherwise, Britannica Overseas Pvt. Ltd. holds the sole rights of all the digital
+                    <p>Unless stated otherwise, Shweta Study Abroad Pvt. Ltd. holds the sole rights of all the digital
                       content, including site layout, software, images, photographs, text, services and other similar
                       materials, available throughout the website. Trademark, logos and service marks of
                       Britannicaoverseas.com cannot be used to be displayed at any commercial or non-commercial use
@@ -329,7 +328,7 @@
                 <div id="collapseFourteen" aria-labelledby="headingFourteen" data-parent="#accordionExample"
                   class="collapse">
                   <div class="card-body pt-3 pl-0 pr-0">
-                    <p>Britannica Overseas Private Limited.<br>
+                    <p>Shweta Study Abroad Private Limited.<br>
                       B-16 Ground Floor, Mayfield Garden,<br>
                       Sector 50, Gurugram, Haryana -122002<br>
                       <a href="mailto:info@britannicaoverseas.com">info@britannicaoverseas.com</a>

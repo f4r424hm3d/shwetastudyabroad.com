@@ -1,11 +1,11 @@
-<title>404 Error | Page not found | Britannica Overseas Education</title>
+<title>404 Error | Page not found | Shweta Study Abroad</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-<meta name="copyright" content="Britannica Overseas Education" />
-<meta name="author" content="Britannica Overseas Education" />
+<meta name="copyright" content="Shweta Study Abroad" />
+<meta name="author" content="Shweta Study Abroad" />
 <meta name="Distribution" content="Global" />
 <meta name="googlebot" content=" noindex, follow " />
-<meta property="og:title" content="Page not found | Britannica Overseas Education" />
+<meta property="og:title" content="Page not found | Shweta Study Abroad" />
 <link rel="shortcut icon" href="{{ asset('/front/') }}/img/favicon.png" type="image/x-icon">
 <link rel="apple-touch-icon" href="{{ asset('/front/') }}/img/favicon.png" />
 <!-- CSS -->

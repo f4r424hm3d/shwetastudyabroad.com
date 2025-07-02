@@ -90,7 +90,7 @@ class StudentLoginFc extends Controller
         'mobile' => $request['mobile'],
         'highest_qualification' => $request['current_qualification_level'],
         'interested_course_category' => $request['intrested_course_category'],
-        'source' => 'Britannica Overseas Sign-up',
+        'source' => 'Shweta Study Abroad Sign-up',
       ];
 
 

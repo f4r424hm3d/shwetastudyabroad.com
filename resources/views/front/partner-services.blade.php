@@ -442,7 +442,7 @@
           <div class="col-lg-7">
             <div class="about-short">
               <h3>Services For <b class="theme-cl1">Franchisees</b></h3>
-              <p class="mb-4">At Britannica Overseas Education, we understand the unique needs and challenges faced by
+              <p class="mb-4">At Shweta Study Abroad, we understand the unique needs and challenges faced by
                 our franchisees. We are dedicated to providing comprehensive support and resources to ensure your success
                 as a franchise partner.</p>
 
@@ -482,7 +482,7 @@
           <div class="col-lg-7">
             <div class="about-short">
               <h3>Services For <b class="theme-cl1">Universities</b></h3>
-              <p class="mb-4">At Britannica Overseas Education, we take pride in being a bridge between universities
+              <p class="mb-4">At Shweta Study Abroad, we take pride in being a bridge between universities
                 and international students. Our dedication to facilitating academic pursuits has made us a reliable
                 partner for universities worldwide.</p>
 
