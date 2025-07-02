@@ -732,16 +732,7 @@ Route::get('/test-api', [InquiryController::class, 'testApi']);
 
 $destinations = Destination::where(['status' => 1])->get();
 foreach ($destinations as $row) {
-  $oldSlug = str_replace("study-in-", "", $row->destination_slug);
-
   Route::get('/' . $row->destination_slug, [DestinationFc::class, 'index']);
-
-  Route::get($oldSlug, function () use ($row) {
-    return redirect($row->destination_slug . '/', 301);
-  });
-  Route::get($oldSlug . '/articles/{page_url}', function ($page_url) use ($row) {
-    return redirect($row->destination_slug . '/articles/' . $page_url, 301);
-  });
 }
 
 $destinationsUniversities = University::whereHas('getPrograms', function ($query) {
@@ -764,19 +755,11 @@ Route::prefix('/course-list')->group(function () {
 
 Route::get('services', [ServiceFc::class, 'index'])->name('services');
 Route::get('services/{service_slug}', [ServiceFc::class, 'serviceDetail'])->name('service.detail');
-// $services = Service::where(['status' => 1])->get();
-// foreach ($services as $row) {
-//   Route::get('/' . $row->slug, [ServiceFc::class, 'serviceDetail']);
-// }
+
 
 Route::get('jobs', [JobPageFc::class, 'index'])->name('jobs');
 Route::get('jobs/{page_slug}', [JobPageFc::class, 'detailPage'])->name('job.detail');
-$jobpages = JobPage::where(['status' => 1])->get();
-foreach ($jobpages as $row) {
-  Route::get($row->page_slug, function () use ($row) {
-    return redirect('jobs/' . $row->page_slug, 301);
-  });
-}
+
 
 Route::get('exams', [ExamFc::class, 'index']);
 Route::get('exam/{exam_slug}/{tab_slug}', [ExamFc::class, 'examDetailPage']);
@@ -833,33 +816,9 @@ Route::prefix('{destination_slug}/universities/')->group(function () {
 });
 Route::post('/university/write-review', [UniversityReviewFc::class, 'addReview']);
 
-$oldUniversities = University::where('status', '1')->get();
-foreach ($oldUniversities as $row) {
-  Route::get($row->slug, function () use ($row) {
-    return redirect($row->getDestination->destination_slug . '/universities/' . $row->slug . '/', 301);
-  });
-  Route::get($row->slug . '/courses/', function () use ($row) {
-    return redirect($row->getDestination->destination_slug . '/universities/' . $row->slug . '/courses/', 301);
-  });
-  Route::get($row->slug . '/write-a-review/', function () use ($row) {
-    return redirect($row->getDestination->destination_slug . '/universities/' . $row->slug . '/write-a-review/', 301);
-  });
-}
-
-Route::get('{slug}/course/{program_slug}', function ($slug, $program_slug) {
-  $university = University::where('slug', $slug)->where('status', '1')->first();
-
-  if (!$university || !$university->getDestination) {
-    abort(404);
-  }
-
-  return redirect($university->getDestination->destination_slug . '/universities/' . $slug . '/courses/' . $program_slug, 301);
-});
-
-
-$customsRedirections = UrlRedirection::all();
-foreach ($customsRedirections as $row) {
-  Route::get($row->old_url, function () use ($row) {
-    return redirect($row->new_url, 301);
-  });
-}
+// $customsRedirections = UrlRedirection::all();
+// foreach ($customsRedirections as $row) {
+//   Route::get($row->old_url, function () use ($row) {
+//     return redirect($row->new_url, 301);
+//   });
+// }
